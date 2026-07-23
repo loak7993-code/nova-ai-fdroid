@@ -1,0 +1,7 @@
+keystore.p12
+config.yml
+*.keystore
+*.jks
+.fdroid
+__pycache__
+tmp/
