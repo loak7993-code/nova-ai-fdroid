@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784852718295,
+    "timestamp": 1784852913269,
     "version": 20002,
     "name": "Nova AI",
     "icon": "icon.png",
@@ -18,8 +18,8 @@
         "Internet",
         "Science & Education"
       ],
-      "suggestedVersionCode": "17",
-      "description": "Nova AI is a privacy-focused Android AI chat client powered by OpenCode Zen free models.\n\nFeatures:\n* Multi-model: Big Pickle, DeepSeek V4, MiMo V2.5, Nemotron 3 Ultra, North Mini Code, GLM 5.2, MiniMax M3, Kimi K2.7 Code\n* Free models work without an API key (OpenCode Zen)\n* Streaming with reasoning/thinking display\n* Tool calling: calculator, time, web search (SearXNG)\n* Image vision (Big Pickle, MiniMax M3, Kimi K2.7 Code)\n* Markdown with tables, code blocks, lists\n* No tracking, no ads, no proprietary SDKs\n",
+      "suggestedVersionCode": "18",
+      "description": "Nova AI is a privacy-focused Android AI chat client with models.dev provider browsing and OpenCode Zen free models.\n\nFeatures:\n* Browse 80+ OpenAI-compatible providers from models.dev\n* Fetch available models from any provider\n* Free models work without an API key (OpenCode Zen)\n* Streaming with reasoning/thinking display\n* Tool calling: calculator, time, web search (SearXNG)\n* Image vision\n* Markdown with tables, code blocks, lists\n* No tracking, no ads, no proprietary SDKs\n",
       "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
       "license": "GPL-3.0-or-later",
       "name": "Nova AI",
@@ -29,7 +29,7 @@
       "added": 1784848330000,
       "icon": "com.nova.ai.15.png",
       "packageName": "com.nova.ai",
-      "lastUpdated": 1784852718295
+      "lastUpdated": 1784852913269
     }
   ],
   "packages": {
@@ -141,6 +141,42 @@
         ],
         "versionCode": 17,
         "versionName": "2.2.1"
+      },
+      {
+        "added": 1784852913269,
+        "apkName": "com.nova.ai_18.apk",
+        "hash": "763f148ee77e2d94a432c417e9fc4ade768ba92979449dc06172de56577d136f",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.nova.ai",
+        "sig": "40c312b9cdbb4ebcdfbac3648b49d126",
+        "signer": "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05",
+        "size": 5747636,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.CLIPBOARD",
+            null
+          ],
+          [
+            "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 18,
+        "versionName": "2.3"
       }
     ]
   }
