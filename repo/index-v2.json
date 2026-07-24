@@ -14,7 +14,7 @@
       }
     },
     "address": "https://loak7993-code.github.io/nova-ai-fdroid/repo",
-    "timestamp": "1784854635603",
+    "timestamp": "1784854875566",
     "categories": {
       "Internet": {
         "name": {
@@ -487,6 +487,92 @@
           "manifest": {
             "versionName": "2.5",
             "versionCode": 25,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
+        },
+        "c61933e2155998fcee86562acd534fe1247175e0a62946cfaac499a33f4d0f06": {
+          "added": 1784854828092,
+          "file": {
+            "name": "/com.nova.ai_26.apk",
+            "sha256": "c61933e2155998fcee86562acd534fe1247175e0a62946cfaac499a33f4d0f06",
+            "size": 5840487
+          },
+          "manifest": {
+            "versionName": "2.5.1",
+            "versionCode": 26,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
+        },
+        "76653acaead4bd34fef016471cb2d75dd9a462fb6cfd9fae0d17a64a23976024": {
+          "added": 1784854875566,
+          "file": {
+            "name": "/com.nova.ai_27.apk",
+            "sha256": "76653acaead4bd34fef016471cb2d75dd9a462fb6cfd9fae0d17a64a23976024",
+            "size": 5840487
+          },
+          "manifest": {
+            "versionName": "2.5.2",
+            "versionCode": 27,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 35
