@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<fdrepo version="2" name="Nova AI" timestamp="1784855715425" description="Nova AI — Privacy-focused AI chat." address="https://loak7993-code.github.io/nova-ai-fdroid/repo" icon="icon.png">
+<fdrepo version="2" name="Nova AI" timestamp="1784855857161" description="Nova AI — Privacy-focused AI chat." address="https://loak7993-code.github.io/nova-ai-fdroid/repo" icon="icon.png">
   <fdapp id="com.nova.ai">
     <package apkName="com.nova.ai_15.apk" versionName="2.1" hash="fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7" hashType="sha256" versionCode="15" size="7040059" minSdkVersion="24" targetSdkVersion="35" added="1784848330000">
       <uses-permission name="android.permission.INTERNET"/>
@@ -100,6 +100,13 @@
       <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     </package>
     <package apkName="com.nova.ai_29.apk" versionName="2.5.4" hash="255513966333d0fe4d022cf1a04c740c90cb6dc6c7c07196cf197a990678977f" hashType="sha256" versionCode="29" size="5840487" minSdkVersion="24" targetSdkVersion="35" added="1784855715425">
+      <uses-permission name="android.permission.INTERNET"/>
+      <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+      <uses-permission name="android.permission.VIBRATE"/>
+      <uses-permission name="android.permission.CLIPBOARD"/>
+      <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    </package>
+    <package apkName="com.nova.ai_30.apk" versionName="2.5.5" hash="34ed45a980b6791acfb922be4f9cb63d7603d35ed368376b8b7d3b5ed98d10b4" hashType="sha256" versionCode="30" size="5840487" minSdkVersion="24" targetSdkVersion="35" added="1784855857161">
       <uses-permission name="android.permission.INTERNET"/>
       <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
       <uses-permission name="android.permission.VIBRATE"/>
