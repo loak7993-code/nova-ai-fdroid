@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784853636898,
+    "timestamp": 1784853950478,
     "version": 20002,
     "name": "Nova AI",
     "icon": "icon.png",
@@ -18,8 +18,8 @@
         "Internet",
         "Science & Education"
       ],
-      "suggestedVersionCode": "21",
-      "description": "Nova AI is a privacy-focused Android AI chat client with clean bottom sheet UI, models.dev provider browsing, and OpenCode Zen free models.\n\nFeatures:\n* Clean bottom sheet dialogs for all pickers and confirmations\n* Browse 80+ OpenAI-compatible providers from models.dev\n* Fetch available models from any provider\n* Free models work without an API key (OpenCode Zen)\n* Streaming with reasoning/thinking display\n* Tool calling: calculator, time, web search (SearXNG)\n* Image vision\n* Markdown with tables, code blocks, lists\n* No tracking, no ads, no proprietary SDKs\n",
+      "suggestedVersionCode": "23",
+      "description": "Nova AI \u2014 Multi-provider support with saved provider profiles, models.dev browser, and OpenCode Zen free models.\n\nFeatures:\n* Save multiple providers and switch between them instantly\n* Each provider remembers its API key, model list, and selected model\n* Browse 80+ OpenAI-compatible providers from models.dev\n* Fetch available models from any provider\n* Free models work without an API key (OpenCode Zen)\n* Streaming with reasoning/thinking display\n* Tool calling: calculator, time, web search (SearXNG)\n* Image vision\n* Clean bottom sheet UI\n* Markdown with tables, code blocks, lists\n* No tracking, no ads, no proprietary SDKs\n",
       "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
       "license": "GPL-3.0-or-later",
       "name": "Nova AI",
@@ -29,7 +29,7 @@
       "added": 1784848330000,
       "icon": "com.nova.ai.15.png",
       "packageName": "com.nova.ai",
-      "lastUpdated": 1784853636898
+      "lastUpdated": 1784853950478
     }
   ],
   "packages": {
@@ -285,6 +285,78 @@
         ],
         "versionCode": 21,
         "versionName": "2.3.3"
+      },
+      {
+        "added": 1784853789996,
+        "apkName": "com.nova.ai_22.apk",
+        "hash": "069b62d3462c5d272ac009752656dd182437db32a73fb2601854ddc091d70614",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.nova.ai",
+        "sig": "40c312b9cdbb4ebcdfbac3648b49d126",
+        "signer": "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05",
+        "size": 5836391,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.CLIPBOARD",
+            null
+          ],
+          [
+            "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 22,
+        "versionName": "2.3.4"
+      },
+      {
+        "added": 1784853950478,
+        "apkName": "com.nova.ai_23.apk",
+        "hash": "166928933d99b6e7ee3ea02c39f2931b6d0ccc13394fb25a5fdee8188872deaa",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.nova.ai",
+        "sig": "40c312b9cdbb4ebcdfbac3648b49d126",
+        "signer": "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05",
+        "size": 5840487,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.CLIPBOARD",
+            null
+          ],
+          [
+            "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 23,
+        "versionName": "2.4"
       }
     ]
   }

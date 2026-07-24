@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<fdrepo version="2" name="Nova AI" timestamp="1784853636898" description="Nova AI — Privacy-focused AI chat." address="https://loak7993-code.github.io/nova-ai-fdroid/repo" icon="icon.png">
+<fdrepo version="2" name="Nova AI" timestamp="1784853950478" description="Nova AI — Multi-provider AI chat." address="https://loak7993-code.github.io/nova-ai-fdroid/repo" icon="icon.png">
   <fdapp id="com.nova.ai">
     <package apkName="com.nova.ai_15.apk" versionName="2.1" hash="fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7" hashType="sha256" versionCode="15" size="7040059" minSdkVersion="24" targetSdkVersion="35" added="1784848330000">
       <uses-permission name="android.permission.INTERNET"/>
@@ -44,6 +44,20 @@
       <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     </package>
     <package apkName="com.nova.ai_21.apk" versionName="2.3.3" hash="7a6ef646c14ff5465a0313fe0d30f5b52d8453a0ece730c38ef877a467a194ac" hashType="sha256" versionCode="21" size="5836391" minSdkVersion="24" targetSdkVersion="35" added="1784853636898">
+      <uses-permission name="android.permission.INTERNET"/>
+      <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+      <uses-permission name="android.permission.VIBRATE"/>
+      <uses-permission name="android.permission.CLIPBOARD"/>
+      <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    </package>
+    <package apkName="com.nova.ai_22.apk" versionName="2.3.4" hash="069b62d3462c5d272ac009752656dd182437db32a73fb2601854ddc091d70614" hashType="sha256" versionCode="22" size="5836391" minSdkVersion="24" targetSdkVersion="35" added="1784853789996">
+      <uses-permission name="android.permission.INTERNET"/>
+      <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+      <uses-permission name="android.permission.VIBRATE"/>
+      <uses-permission name="android.permission.CLIPBOARD"/>
+      <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    </package>
+    <package apkName="com.nova.ai_23.apk" versionName="2.4" hash="166928933d99b6e7ee3ea02c39f2931b6d0ccc13394fb25a5fdee8188872deaa" hashType="sha256" versionCode="23" size="5840487" minSdkVersion="24" targetSdkVersion="35" added="1784853950478">
       <uses-permission name="android.permission.INTERNET"/>
       <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
       <uses-permission name="android.permission.VIBRATE"/>

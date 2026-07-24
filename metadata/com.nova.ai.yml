@@ -2,23 +2,27 @@ AuthorName: loak7993-code
 Categories:
   - Internet
   - Science & Education
-CurrentVersionCode: 21
+CurrentVersionCode: 23
 IssueTracker: https://github.com/loak7993-code/nova-ai/issues
 Name: Nova AI
 SourceCode: https://github.com/loak7993-code/nova-ai
-Summary: Privacy-focused AI chat with tool calling and web search
+Summary: Multi-provider AI chat with tool calling and web search
 WebSite: https://github.com/loak7993-code/nova-ai
 License: GPL-3.0-or-later
 Description: |
-    Nova AI is a privacy-focused Android AI chat client supporting multiple
-    LLM models via OpenAI-compatible APIs, with OpenCode Zen free models
-    pre-configured out of the box.
+    Nova AI is a privacy-focused Android AI chat client that supports multiple
+    providers with saved profiles. Browse 80+ providers from models.dev, fetch
+    available models, and switch between providers instantly.
 
     Features:
-    * Multi-model: Big Pickle, DeepSeek V4, MiMo V2.5, Nemotron 3 Ultra, North Mini Code, GLM 5.2, MiniMax M3, Kimi K2.7 Code
+    * Save multiple providers and switch between them instantly
+    * Each provider remembers its API key, model list, and selected model
+    * Browse 80+ OpenAI-compatible providers from models.dev
+    * Fetch available models from any provider
     * Free models work without an API key (OpenCode Zen)
     * Streaming with reasoning/thinking display
     * Tool calling: calculator, time, web search (SearXNG)
-    * Image vision (Big Pickle, MiniMax M3, Kimi K2.7 Code)
+    * Image vision
+    * Clean bottom sheet UI
     * Markdown with tables, code blocks, lists
     * No tracking, no ads, no proprietary SDKs
