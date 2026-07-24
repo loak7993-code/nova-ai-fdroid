@@ -192,5 +192,12 @@ Features:
       <uses-permission name="android.permission.CLIPBOARD" />
       <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     </package>
+    <package versionCode="39" versionName="2.6.7" apkName="com.nova.ai_39.apk" hash="32de8d6f51857ba76aaf50b35e156f4758c3f98596c92720733ecd7d6e648758" hashType="sha256" size="5849296" minSdkVersion="24" targetSdkVersion="35" added="1784890870990" sig="40c312b9cdbb4ebcdfbac3648b49d126" signer="ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05">
+      <uses-permission name="android.permission.INTERNET" />
+      <uses-permission name="android.permission.ACCESS_NETWORK_STATE" />
+      <uses-permission name="android.permission.VIBRATE" />
+      <uses-permission name="android.permission.CLIPBOARD" />
+      <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    </package>
   </application>
 </fdroid>

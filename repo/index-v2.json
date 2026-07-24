@@ -50,7 +50,7 @@
         "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
         "authorName": "loak7993-code",
         "webSite": "https://github.com/loak7993-code/nova-ai",
-        "lastUpdated": 1784890555567
+        "lastUpdated": 1784890870990
       },
       "versions": {
         "fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7": {
@@ -1079,10 +1079,53 @@
               }
             ]
           }
+        },
+        "32de8d6f51857ba76aaf50b35e156f4758c3f98596c92720733ecd7d6e648758": {
+          "added": 1784890870990,
+          "file": {
+            "name": "/com.nova.ai_39.apk",
+            "sha256": "32de8d6f51857ba76aaf50b35e156f4758c3f98596c92720733ecd7d6e648758",
+            "size": 5849296
+          },
+          "manifest": {
+            "versionName": "2.6.7",
+            "versionCode": 39,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
         }
       },
-      "suggestedVersionCode": 38
+      "suggestedVersionCode": 39
     }
   },
-  "timestamp": 1784890555567
+  "timestamp": 1784890870990
 }
