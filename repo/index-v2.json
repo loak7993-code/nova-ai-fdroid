@@ -14,7 +14,7 @@
       }
     },
     "address": "https://loak7993-code.github.io/nova-ai-fdroid/repo",
-    "timestamp": "1784852470389",
+    "timestamp": "1784852718295",
     "categories": {
       "Internet": {
         "name": {
@@ -44,7 +44,7 @@
           "en-US": "Privacy-focused AI chat with tool calling and web search"
         },
         "description": {
-          "en-US": "Nova AI is a privacy-focused Android AI chat client with OpenCode Zen free models pre-configured."
+          "en-US": "Nova AI is a privacy-focused Android AI chat client powered by OpenCode Zen free models."
         },
         "sourceCode": "https://github.com/loak7993-code/nova-ai",
         "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
@@ -100,6 +100,49 @@
           "manifest": {
             "versionName": "2.2",
             "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
+        },
+        "f6b2918d208b05cb9a3a5d50dbce5bf73dce5847b41f337a5a2a813e5b9936e5": {
+          "added": 1784852718295,
+          "file": {
+            "name": "/com.nova.ai_17.apk",
+            "sha256": "f6b2918d208b05cb9a3a5d50dbce5bf73dce5847b41f337a5a2a813e5b9936e5",
+            "size": 5739068
+          },
+          "manifest": {
+            "versionName": "2.2.1",
+            "versionCode": 17,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 35
