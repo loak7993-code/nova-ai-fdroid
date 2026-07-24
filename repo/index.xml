@@ -21,7 +21,6 @@ Features:
     <license>GPL-3.0-or-later</license>
     <sourceCode>https://github.com/loak7993-code/nova-ai</sourceCode>
     <issueTracker>https://github.com/loak7993-code/nova-ai/issues</issueTracker>
-    <webSite>https://github.com/loak7993-code/nova-ai</webSite>
     <authorName>loak7993-code</authorName>
     <categories>Internet</categories>
     <categories>Science & Education</categories>
@@ -159,6 +158,13 @@ Features:
       <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     </package>
     <package versionCode="34" versionName="2.6.2" apkName="com.nova.ai_34.apk" hash="32fcb0629253ff11874dc73efde4a549cb924583338bf2e22654748b1566e190" hashType="sha256" size="5849072" minSdkVersion="24" targetSdkVersion="35" added="1784857300738" sig="40c312b9cdbb4ebcdfbac3648b49d126" signer="ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05">
+      <uses-permission name="android.permission.INTERNET" />
+      <uses-permission name="android.permission.ACCESS_NETWORK_STATE" />
+      <uses-permission name="android.permission.VIBRATE" />
+      <uses-permission name="android.permission.CLIPBOARD" />
+      <uses-permission name="com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    </package>
+    <package versionCode="35" versionName="2.6.3" apkName="com.nova.ai_35.apk" hash="3f3d49d529c503bba70895cca1c58db7e57299849526c9f1c2895bb284a3bf6b" hashType="sha256" size="5849128" minSdkVersion="24" targetSdkVersion="35" added="1784857458737" sig="40c312b9cdbb4ebcdfbac3648b49d126" signer="ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05">
       <uses-permission name="android.permission.INTERNET" />
       <uses-permission name="android.permission.ACCESS_NETWORK_STATE" />
       <uses-permission name="android.permission.VIBRATE" />
