@@ -14,7 +14,7 @@
       }
     },
     "address": "https://loak7993-code.github.io/nova-ai-fdroid/repo",
-    "timestamp": "1784854295189",
+    "timestamp": "1784854635603",
     "categories": {
       "Internet": {
         "name": {
@@ -444,6 +444,49 @@
           "manifest": {
             "versionName": "2.4.1",
             "versionCode": 24,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
+        },
+        "b6526ebc30041c25c4d2a5407dcc47a5147553b19cce94426fa4982a18da611e": {
+          "added": 1784854635603,
+          "file": {
+            "name": "/com.nova.ai_25.apk",
+            "sha256": "b6526ebc30041c25c4d2a5407dcc47a5147553b19cce94426fa4982a18da611e",
+            "size": 5840487
+          },
+          "manifest": {
+            "versionName": "2.5",
+            "versionCode": 25,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 35
