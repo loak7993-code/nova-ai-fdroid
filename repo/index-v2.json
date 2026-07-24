@@ -1,1 +1,139 @@
-{"repo": {"name": {"en-US": "Nova AI"}, "description": {"en-US": "Nova AI - Privacy-focused AI chat client with tool calling, vision, and web search."}, "icon": {"en-US": {"name": "/icons/icon.png", "sha256": "daedbc7f91ca266a45c2d612721a9aef0b345bc3549cc9141e5f1aaea47516ee", "size": 799}}, "address": "https://loak7993-code.github.io/nova-ai-fdroid/repo", "timestamp": 1784851486000, "categories": {"Internet": {"name": {"en-US": "Internet"}}, "Science & Education": {"name": {"en-US": "Science & Education"}}}}, "packages": {"com.nova.ai": {"metadata": {"added": 1784848330000, "categories": ["Internet", "Science & Education"], "issueTracker": "https://github.com/loak7993-code/nova-ai/issues", "lastUpdated": 1784848330000, "license": "GPL-3.0-or-later", "sourceCode": "https://github.com/loak7993-code/nova-ai", "webSite": "https://github.com/loak7993-code/nova-ai", "authorName": "loak7993-code", "name": {"en-US": "Nova AI"}, "summary": {"en-US": "Privacy-focused AI chat with tool calling and web search"}, "description": {"en-US": "Nova AI is a privacy-focused Android AI chat client supporting multiple\nLLM models via the W&B Inference API.\n\nFeatures:\n* Multi-model: GLM-5.2, MiniMax M3, Kimi K2.7 Code\n* Streaming with reasoning/thinking display\n* Tool calling: calculator, time, web search (SearXNG)\n* Image vision (Kimi K2.7 Code, MiniMax M3)\n* Markdown with tables, code blocks, lists\n* No tracking, no ads, no proprietary SDKs\n"}, "icon": {"en-US": {"name": "/icons/com.nova.ai.15.png", "sha256": "7238e702a1ac46ef62d4bc05b7ed332fcbfd50af976dba540a335dd785cca4af", "size": 2907}}, "preferredSigner": "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"}, "versions": {"fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7": {"added": 1784848330000, "file": {"name": "/com.nova.ai_15.apk", "sha256": "fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7", "size": 7040059}, "manifest": {"versionName": "2.1", "versionCode": 15, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 35}, "signer": {"sha256": ["ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.CLIPBOARD"}, {"name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}}}
+{
+  "repo": {
+    "name": {
+      "en-US": "Nova AI"
+    },
+    "description": {
+      "en-US": "Nova AI - Privacy-focused AI chat client with tool calling, vision, and web search."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "daedbc7f91ca266a45c2d612721a9aef0b345bc3549cc9141e5f1aaea47516ee",
+        "size": 799
+      }
+    },
+    "address": "https://loak7993-code.github.io/nova-ai-fdroid/repo",
+    "timestamp": "1784852470389",
+    "categories": {
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
+        }
+      },
+      "Science & Education": {
+        "name": {
+          "en-US": "Science & Education"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.nova.ai": {
+      "metadata": {
+        "added": 1784848330000,
+        "categories": [
+          "Internet",
+          "Science & Education"
+        ],
+        "license": "GPL-3.0-or-later",
+        "name": {
+          "en-US": "Nova AI"
+        },
+        "summary": {
+          "en-US": "Privacy-focused AI chat with tool calling and web search"
+        },
+        "description": {
+          "en-US": "Nova AI is a privacy-focused Android AI chat client with OpenCode Zen free models pre-configured."
+        },
+        "sourceCode": "https://github.com/loak7993-code/nova-ai",
+        "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
+        "authorName": "loak7993-code",
+        "webSite": "https://github.com/loak7993-code/nova-ai"
+      },
+      "versions": {
+        "fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7": {
+          "added": 1784848330000,
+          "file": {
+            "name": "/com.nova.ai_15.apk",
+            "sha256": "fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7",
+            "size": 7040059
+          },
+          "manifest": {
+            "versionName": "2.1",
+            "versionCode": 15,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.CLIPBOARD"
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "cdf8c7a4c43c3d1bb5c995b4fa7afbda18195ceabdd8dd3b3d3abc922569c933": {
+          "added": 1784852470389,
+          "file": {
+            "name": "/com.nova.ai_16.apk",
+            "sha256": "cdf8c7a4c43c3d1bb5c995b4fa7afbda18195ceabdd8dd3b3d3abc922569c933",
+            "size": 5738704
+          },
+          "manifest": {
+            "versionName": "2.2",
+            "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
