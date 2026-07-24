@@ -50,7 +50,7 @@
         "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
         "authorName": "loak7993-code",
         "webSite": "https://github.com/loak7993-code/nova-ai",
-        "lastUpdated": 1784856890513
+        "lastUpdated": 1784857300738
       },
       "versions": {
         "fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7": {
@@ -864,10 +864,53 @@
               }
             ]
           }
+        },
+        "32fcb0629253ff11874dc73efde4a549cb924583338bf2e22654748b1566e190": {
+          "added": 1784857300738,
+          "file": {
+            "name": "/com.nova.ai_34.apk",
+            "sha256": "32fcb0629253ff11874dc73efde4a549cb924583338bf2e22654748b1566e190",
+            "size": 5849072
+          },
+          "manifest": {
+            "versionName": "2.6.2",
+            "versionCode": 34,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
         }
       },
-      "suggestedVersionCode": 33
+      "suggestedVersionCode": 34
     }
   },
-  "timestamp": 1784856890513
+  "timestamp": 1784857300738
 }
