@@ -11,7 +11,7 @@ WebSite: https://github.com/loak7993-code/nova-ai
 License: GPL-3.0-or-later
 Description: |
     Nova AI is a privacy-focused Android AI chat client supporting multiple
-    LLM models via the W&B Inference API.
+    LLM models via any OpenAI-compatible API from models.dev.
 
     Features:
     * Multi-model: GLM-5.2, MiniMax M3, Kimi K2.7 Code
