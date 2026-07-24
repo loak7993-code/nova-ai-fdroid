@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784854875566,
+    "timestamp": 1784855152101,
     "version": 20002,
     "name": "Nova AI",
     "icon": "icon.png",
@@ -18,7 +18,7 @@
         "Internet",
         "Science & Education"
       ],
-      "suggestedVersionCode": "27",
+      "suggestedVersionCode": "28",
       "description": "Nova AI \u2014 Multi-provider support with saved provider profiles, models.dev browser, and OpenCode Zen free models.\n\nFeatures:\n* Save multiple providers and switch between them instantly\n* Each provider remembers its API key, model list, and selected model\n* Browse 80+ OpenAI-compatible providers from models.dev\n* Fetch available models from any provider\n* Free models work without an API key (OpenCode Zen)\n* Streaming with reasoning/thinking display\n* Tool calling: calculator, time, web search (SearXNG)\n* Image vision\n* Clean bottom sheet UI\n* Markdown with tables, code blocks, lists\n* No tracking, no ads, no proprietary SDKs\n",
       "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
       "license": "GPL-3.0-or-later",
@@ -29,7 +29,7 @@
       "added": 1784848330000,
       "icon": "com.nova.ai.15.png",
       "packageName": "com.nova.ai",
-      "lastUpdated": 1784854875566
+      "lastUpdated": 1784855152101
     }
   ],
   "packages": {
@@ -501,6 +501,42 @@
         ],
         "versionCode": 27,
         "versionName": "2.5.2"
+      },
+      {
+        "added": 1784855152101,
+        "apkName": "com.nova.ai_28.apk",
+        "hash": "41b016baf170169e0d186dc683d171e2d0dd2dafd4137b41000a8f47426628ac",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.nova.ai",
+        "sig": "40c312b9cdbb4ebcdfbac3648b49d126",
+        "signer": "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05",
+        "size": 5840487,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.CLIPBOARD",
+            null
+          ],
+          [
+            "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 28,
+        "versionName": "2.5.3"
       }
     ]
   }
