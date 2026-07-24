@@ -50,7 +50,7 @@
         "issueTracker": "https://github.com/loak7993-code/nova-ai/issues",
         "authorName": "loak7993-code",
         "webSite": "https://github.com/loak7993-code/nova-ai",
-        "lastUpdated": 1784857725716
+        "lastUpdated": 1784889746545
       },
       "versions": {
         "fd82c3f9aa177449dcf2533ec72b42a75cb019d8538b3f73da960d5e0759a2f7": {
@@ -993,10 +993,53 @@
               }
             ]
           }
+        },
+        "d8161da0621b993405924a56fe2e1c102b3eb53e935ae9947b08431d133454d7": {
+          "added": 1784889746545,
+          "file": {
+            "name": "/com.nova.ai_37.apk",
+            "sha256": "d8161da0621b993405924a56fe2e1c102b3eb53e935ae9947b08431d133454d7",
+            "size": 5849296
+          },
+          "manifest": {
+            "versionName": "2.6.5",
+            "versionCode": 37,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ffaf463832590e8806886c10000b7206842df5c3c8a41473b6c139adbb892c05"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.VIBRATE",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "android.permission.CLIPBOARD",
+                "maxSdkVersion": -1
+              },
+              {
+                "name": "com.nova.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                "maxSdkVersion": -1
+              }
+            ]
+          }
         }
       },
-      "suggestedVersionCode": 36
+      "suggestedVersionCode": 37
     }
   },
-  "timestamp": 1784857725716
+  "timestamp": 1784889746545
 }
